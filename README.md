@@ -14,4 +14,4 @@ Here I take a natural signal ( you can take any signal ), where a window is crea
 Taking the 2 channels of a stereo signal and using the Teoplitz matrix to calculate the impluse response using channel 1. Then regenerating channel 2 from the impulse response and seeing the difference between original channel 2 and the one synthesized from the impulse response. Also seeing how the synthesized channel 2 signal varies when the order of the Teoplitz matrix is increased.
 
 5. Poles_v_Impulse.m
-I demonstrate the relationship between poles in the z-domain and the respective associated impulse response.
+I demonstrate the relationship between poles in the z-domain and the respective associated impulse response. Sections of the code are to be run sequentially.

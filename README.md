@@ -15,3 +15,7 @@ Taking the 2 channels of a stereo signal and using the Teoplitz matrix to calcul
 
 5. Poles_v_Impulse.m
 I demonstrate the relationship between poles in the z-domain and the respective associated impulse response. Sections of the code are to be run sequentially.
+
+6. FFT_Chunks.m
+A signal can broken down into chunks (10 equal chunks) and the Fourier Transform of each chunk is plotted and a comparison is made. The signal I've chosen is a chirp where the frequency increases as the signal progresses in time. This is highlighted by Fourier Transform comparison of the chunks.
+

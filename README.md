@@ -9,3 +9,6 @@ Some code to fit a bell curve on normally distributed data ( mean ~ 0, sigma ~ 1
 
 3.Noise_normalization.m
 Here I take a natural signal ( you can take any signal ), where a window is created and each sample is divided by the standard deviation(sigma) to even out the noise in the signal.
+
+4. Impulse response v Order.m
+Taking the 2 channels of a stereo signal and using the Teoplitz matrix to calculate the impluse response using channel 1. Then regenerating channel 2 from the impulse response and seeing the difference between original channel 2 and the one synthesized from the impulse response. Also seeing how the synthesized channel 2 signal varies when the order of the Teoplitz matrix is increased.
